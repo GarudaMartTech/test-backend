@@ -19,7 +19,7 @@ mongoose
   });
 
 app.get("/", (req, res) => {
-  res.send("Hello world");
+  res.send("backend deployment successfull");
 });
 
 app.listen(PORT, () => {
